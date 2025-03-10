@@ -80,8 +80,8 @@ def drop_course(current_student):
             if 'courses' in x: # if courses list is present
                 for y in range(len(x['courses'])): # i learned del needs an index so that is why i used range(len)
                     if x['courses'][y]['course'] == course: # if course and index y equals selected course
-                        del x['courses'][y] # delete the whole dict in that index
                         print(f"Deleted: {x['courses'][y]}")
+                        del x['courses'][y] # delete the whole dict in that index
                         break
             else:
                 return
