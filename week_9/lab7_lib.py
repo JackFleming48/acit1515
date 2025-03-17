@@ -29,7 +29,9 @@ def get_grade():
     # prompts user for course grade, returns grade if numeric and between 0 and 100, None otherwise
     grade = input("Please enter your grade: ")
 
-    if grade == "":
-        return None
+    if grade.isdigit():
+        grade = int(grade)
+        if 100 >= grade >= 0:
+            return grade
     
-    return grade
+    return None

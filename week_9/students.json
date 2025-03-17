@@ -7,7 +7,26 @@
         {
             "name": "Jordan",
             "email": "jlorette@gmail.com",
-            "courses": []
+            "courses": [
+                {
+                    "course": "acit1515",
+                    "grade": "99"
+                },
+                {
+                    "course": "acit1620",
+                    "grade": "90"
+                }
+            ]
+        },
+        {
+            "name": "Jackson",
+            "email": "jf200211@gmail.com",
+            "courses": [
+                {
+                    "course": "acit1515",
+                    "grade": 50
+                }
+            ]
         }
     ]
 }
