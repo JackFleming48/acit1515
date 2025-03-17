@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="receive.html" method="GET">
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <button type="submit">Submit</button>
+        <!-- action is where the form is submitted
+            
+            action="" -> submits to itself/refreshes the page
+            action="receive.html" -> data is submitted to receive.html and the browser navigates to that page.
+        -->
+
+        <!-- 
+            method is HOW the data is sent
+
+            2 Methods:
+            GET - takes all the data and appends it to the URL.
+
+                email
+                password
+                method="GET" action="receive.html"
+                receive.html?email=jeremy@bcit.ca&password=batman123456
+
+
+
+            POST
+
+                data is encoded into the body of an HTTP request (not visible, not cached).
+
+        
+        -->
+    </form>
+</body>
+</html>
