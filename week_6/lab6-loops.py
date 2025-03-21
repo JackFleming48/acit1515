@@ -46,6 +46,7 @@ while True:
                     print(courses)
                 else:
                     print("please add a valid grade between 0 and 100.")
+                    
         
         elif int(selection) == 2:
             count = 1                      

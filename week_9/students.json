@@ -1,52 +1,32 @@
 {
     "students": [
         {
+            "name": "Jack",
+            "email": "jf200211@gmail.com"
+        },
+        {
+            "name": "Jordan",
+            "email": "jlorette@gmail.com",
+            "courses": [
+                {
+                    "course": "acit1515",
+                    "grade": "99"
+                },
+                {
+                    "course": "acit1620",
+                    "grade": "90"
+                }
+            ]
+        },
+        {
             "name": "Jackson",
             "email": "jf200211@gmail.com",
             "courses": [
                 {
-                    "course": "acit1600",
-                    "grade": "90"
-                },
-                {
-                    "course": "acit1620",
-                    "grade": "99"
-                },
-                {
                     "course": "acit1515",
-                    "grade": "99"
-                },
-                {
-                    "course": null,
-                    "grade": null
-                },
-                {
-                    "course": "\"}; print(\"Hello\")",
-                    "grade": "99"
+                    "grade": 50
                 }
             ]
-        },
-        {
-            "name": "Kevin",
-            "email": "ksaghafi@gmial.com",
-            "courses": [
-                {
-                    "course": "acit1515",
-                    "grade": "90"
-                }
-            ]
-        },
-        {
-            "name": "Austin",
-            "email": "adoherty@gmail.com"
-        },
-        {
-            "name": "Dillon",
-            "email": "ddoherty@gmail.com"
-        },
-        {
-            "name": "Jordan",
-            "email": "lorette@gmail.com"
         }
     ]
 }
