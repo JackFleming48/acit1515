@@ -103,4 +103,7 @@ def load():
 
 if __name__ == '__main__':
     # use try/except to allow the program to exit gracefully if ctrl-c used
-    load()
+    try:
+        load()
+    except KeyboardInterrupt:
+        print("\n\nExiting now, goodbye!")
